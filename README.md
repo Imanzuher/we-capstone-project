@@ -1,6 +1,6 @@
 # Furno
 
-Furno is an ecommerce website that is classified as an online store that is selling furniture and homegoods.
+Furno is an Ecommerce website that is classified as an online store for selling furniture and homegoods.
 
 ## Features
 
