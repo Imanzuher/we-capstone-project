@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Nav from "./components/Navbar";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Categories from "./pages/Categories";
@@ -11,7 +11,6 @@ import Register from "./pages/Register";
 function App() {
   return (
     <div>
-      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />

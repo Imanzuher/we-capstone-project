@@ -1,7 +1,7 @@
 import React from "react";
-
+import Layout from "../Layout/MainLayout";
 function Categories() {
-  return <div>Categories</div>;
+  return <Layout>Categories</Layout>;
 }
 
 export default Categories;
