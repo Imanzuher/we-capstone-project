@@ -10,8 +10,8 @@ export default function Navbar() {
   const location = useLocation();
   const [navigation, setNavigation] = useState([
     { name: "Home", href: "/", current: true },
-    { name: "Products", href: "/products", current: false },
     { name: "Categories", href: "/categories", current: false },
+    { name: "Products", href: "/products", current: false },
   ]);
   return (
     <Disclosure as="nav" className="bg-gray-50">
