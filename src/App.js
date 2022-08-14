@@ -1,5 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-
+import { login } from "./app/slices/authSlice";
+import { useDispatch } from "react-redux";
+import React, { useEffect } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Categories from "./pages/Categories";
@@ -9,6 +11,14 @@ import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import Register from "./pages/Register";
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const email = localStorage.getItem("email");
+    if (email) {
+      dispatch(login(email));
+    }
+  }, []);
   return (
     <div>
       <Routes>

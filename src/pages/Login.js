@@ -1,15 +1,21 @@
 import React, { useState } from "react";
-
+import { login } from "../app/slices/authSlice";
+import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 function Login() {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
   const [form, setForm] = useState({});
   function submitHandler(e) {
     e.preventDefault();
-    alert(JSON.stringify(form));
+    dispatch(login(form.email));
+    navigate("/", { replace: true });
   }
   function onChangeHandler(event) {
     const name = event.target.name;
     const value = event.target.value;
     setForm((values) => ({ ...values, [name]: value }));
+    console.log(form);
   }
   return (
     <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-[#faefd4]">
