@@ -1,9 +1,16 @@
 import React, { useState } from "react";
 
 function Login() {
-  const [form, setForm] = useState();
-  function submitHandler(e) {}
-  function onChangeHandler() {}
+  const [form, setForm] = useState({});
+  function submitHandler(e) {
+    e.preventDefault();
+    alert(JSON.stringify(form));
+  }
+  function onChangeHandler(event) {
+    const name = event.target.name;
+    const value = event.target.value;
+    setForm((values) => ({ ...values, [name]: value }));
+  }
   return (
     <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-[#faefd4]">
       <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-gray-400/40  ring-gray-100 lg:max-w-xl">
@@ -20,10 +27,10 @@ function Login() {
             </label>
             <input
               type="email"
+              name="email"
+              value={form.email || ""}
               className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md focus:border-[#F7BE38] focus:ring-[#F7BE38] focus:outline-none focus:ring focus:ring-opacity-20"
-              onChange={() => {
-                onChangeHandler();
-              }}
+              onChange={onChangeHandler}
             />
           </div>
           <div className="mb-2">
@@ -35,10 +42,10 @@ function Login() {
             </label>
             <input
               type="password"
+              name="password"
+              value={form.password || ""}
               className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md focus:border-[#F7BE38] focus:ring-[#F7BE38] focus:outline-none focus:ring focus:ring-opacity-40"
-              onChange={() => {
-                onChangeHandler();
-              }}
+              onChange={onChangeHandler}
             />
           </div>
           <a
@@ -48,7 +55,10 @@ function Login() {
             Forget Password?
           </a>
           <div className="mt-6">
-            <button className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-[#e7a202] rounded-md hover:bg-[#f5b92d] focus:outline-none focus:bg-[#e7a202]">
+            <button
+              type="submit"
+              className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-[#e7a202] rounded-md hover:bg-[#f5b92d] focus:outline-none focus:bg-[#e7a202]"
+            >
               Login
             </button>
           </div>

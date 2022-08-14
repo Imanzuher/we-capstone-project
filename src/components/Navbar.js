@@ -1,18 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { useLocation, Link } from "react-router-dom";
-
+import { useSelector } from "react-redux";
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
+
 export default function Navbar() {
   const location = useLocation();
+  const auth = useSelector((state) => state.auth.isAuthenticated);
   const [navigation, setNavigation] = useState([
     { name: "Home", href: "/", current: true },
     { name: "Categories", href: "/categories", current: false },
     { name: "Products", href: "/products", current: false },
   ]);
+  useEffect(() => {}, []);
   return (
     <Disclosure as="nav" className="bg-gray-50">
       {({ open }) => (
@@ -71,15 +74,25 @@ export default function Navbar() {
                     d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                   />
                 </svg>
-
-                <Link
-                  to="/login"
-                  className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
-                >
-                  <span className="sr-only">View notifications</span>
-                  {/* <BellIcon className="h-6 w-6" aria-hidden="true" /> */}
-                  Login
-                </Link>
+                {auth ? (
+                  <Link
+                    to="/login"
+                    className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
+                  >
+                    <span className="sr-only">View notifications</span>
+                    {/* <BellIcon className="h-6 w-6" aria-hidden="true" /> */}
+                    Log out
+                  </Link>
+                ) : (
+                  <Link
+                    to="/login"
+                    className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2"
+                  >
+                    <span className="sr-only">View notifications</span>
+                    {/* <BellIcon className="h-6 w-6" aria-hidden="true" /> */}
+                    Login
+                  </Link>
+                )}
               </div>
             </div>
           </div>
