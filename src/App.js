@@ -10,6 +10,7 @@ import Product from "./pages/Product";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import Register from "./pages/Register";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 function App() {
   const dispatch = useDispatch();
 
