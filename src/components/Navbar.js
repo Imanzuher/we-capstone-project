@@ -37,7 +37,7 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <h1 className="font-mono text-3xl font-semibold tracking-wider mr-8">
+                  <h1 className="font-mono text-3xl font-semibold tracking-wider mr-8 cursor-pointer">
                     Furno
                   </h1>
                 </div>
@@ -78,7 +78,7 @@ export default function Navbar() {
 
                 {auth.isAuthenticated ? (
                   <>
-                    <p className="text-black mr-4">Welcome back {auth.email}</p>
+                    <p className="text-black mr-4">Welcome back iman</p>
                     <Link
                       to="/"
                       className="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2 "

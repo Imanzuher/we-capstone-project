@@ -7,7 +7,7 @@ function About() {
         <h1 className="font-medium text-2xl text-gray-900 pt-11 tracking-widest">
           ABOUT US{" "}
         </h1>
-        <h3 className="text-base pt-2">Home/About</h3>
+        <h3 className="text-base pt-2 tracking-widest">Home/About</h3>
       </div>
       <div className=" h-32 w-full">
         <p className="font-bold text-xl px-60 py-16 text-center">
