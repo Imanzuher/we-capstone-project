@@ -10,6 +10,7 @@ import Product from "./pages/Product";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import Register from "./pages/Register";
+import Contact from "./pages/Contact";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function App() {
   const dispatch = useDispatch();
@@ -31,6 +32,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="shoppingCart" element={<Cart />} />
         <Route path="register" element={<Register />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </div>
   );

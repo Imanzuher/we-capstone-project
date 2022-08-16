@@ -26,7 +26,7 @@ function careousel() {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
             </p>
-            <button className="bg-amber-500 py-2 px-4 rounded-md font-medium">
+            <button className="bg-amber-500 py-2 px-4 rounded-md font-medium cursor-pointer hover:bg-amber-400">
               Shop now
             </button>
           </div>
@@ -47,7 +47,7 @@ function careousel() {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
             </p>
-            <button className="bg-amber-500 py-2 px-4 rounded-md font-medium">
+            <button className="bg-amber-500 py-2 px-4 rounded-md font-medium cursor-pointer hover:bg-amber-400">
               Shop now
             </button>
           </div>

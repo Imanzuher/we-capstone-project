@@ -10,8 +10,10 @@ export default function Navbar() {
   const dispatch = useDispatch();
   const [navigation, setNavigation] = useState([
     { name: "Home", href: "/", current: true },
+    { name: "About", href: "/about", current: false },
     { name: "Categories", href: "/categories", current: false },
     { name: "Products", href: "/products", current: false },
+    { name: "Contact", href: "/contact", current: false },
   ]);
   useEffect(() => {
     console.log("the state of auth is ", auth);
