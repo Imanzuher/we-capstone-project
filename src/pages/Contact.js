@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../Layout/MainLayout";
+import Map from "../components/LeafLetMap";
 function Contact() {
   return (
     <Layout>
@@ -9,6 +10,7 @@ function Contact() {
         </h1>
         <h3 className="text-base pt-2 tracking-widest">Home/Contact</h3>
       </div>
+      <Map />
     </Layout>
   );
 }
