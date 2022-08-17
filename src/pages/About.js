@@ -32,7 +32,7 @@ function About() {
       </div>
       <div className="grid grid-cols-2  text-center gap-40 px-24 py-14">
         <div>
-          <h2 className="font-semibold">OUR STORES</h2>
+          <h2 className="font-semibold mb-2">OUR STORES</h2>
           <p className="text-xs font-medium">
             Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -43,7 +43,7 @@ function About() {
           </p>
         </div>
         <div>
-          <h2 className="font-semibold">OUR MISSION</h2>
+          <h2 className="font-semibold mb-2">OUR MISSION</h2>
           <p className="text-xs font-medium">
             Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
