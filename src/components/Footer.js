@@ -17,6 +17,8 @@ function Footer() {
                 justify-center
                 md:justify-start
                 text-sm
+                hover:text-amber-600
+                cursor-default
                 "
               >
                 ABOUT US
@@ -27,7 +29,7 @@ function Footer() {
                 minim veniam, quis nostrud.
               </p>
               <div className="flex justify-start">
-                <a href="#!" class="mr-6 text-gray-50">
+                <a href="#!" class="mr-6 text-gray-50 hover:text-amber-600 ">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -44,7 +46,7 @@ function Footer() {
                     ></path>
                   </svg>
                 </a>
-                <a href="#!" class="mr-6 text-gray-50">
+                <a href="#!" class="mr-6 text-gray-50 hover:text-amber-600">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -61,7 +63,7 @@ function Footer() {
                     ></path>
                   </svg>
                 </a>
-                <a href="#!" class="mr-6 text-gray-50">
+                <a href="#!" class="mr-6 text-gray-50 hover:text-amber-600">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -78,7 +80,7 @@ function Footer() {
                     ></path>
                   </svg>
                 </a>
-                <a href="#!" class="mr-6 text-gray-50">
+                <a href="#!" class="mr-6 text-gray-50 hover:text-amber-600">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -98,62 +100,71 @@ function Footer() {
               </div>
             </div>
             <div class="">
-              <h6 class="uppercase font-semibold text-sm mb-4 flex justify-center md:justify-start">
+              <h6
+                class="uppercase font-semibold text-sm mb-4 flex justify-center md:justify-start  hover:text-amber-600
+                cursor-default"
+              >
                 INFORMATION
               </h6>
               <p class="mb-4">
-                <a href="#!" class="text-gray-50 text-xs">
+                <a href="#!" class="text-gray-50 hover:text-amber-600 text-xs">
                   About us
                 </a>
               </p>
               <p class="mb-4">
-                <a href="#!" class="text-gray-50 text-xs">
+                <a href="#!" class="text-gray-50 hover:text-amber-600 text-xs">
                   Manufactors
                 </a>
               </p>
               <p class="mb-4">
-                <a href="#!" class="text-gray-50 text-xs">
+                <a href="#!" class="text-gray-50 hover:text-amber-600 text-xs">
                   Tracking Order
                 </a>
               </p>
               <p class="mb-4">
-                <a href="#!" class="text-gray-50 text-xs">
+                <a href="#!" class="text-gray-50 hover:text-amber-600 text-xs">
                   Privacy & Policy
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-gray-50 text-xs">
+                <a href="#!" class="text-gray-50 hover:text-amber-600 text-xs">
                   Terms & Conditions
                 </a>
               </p>
             </div>
             <div>
-              <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start text-sm">
+              <h6
+                class="uppercase font-semibold mb-4 flex justify-center md:justify-start text-sm  hover:text-amber-600
+                cursor-default"
+              >
                 MY ACCOUNT
               </h6>
               <p class="mb-4">
-                <a href="#!" class="text-gray-50 text-xs">
+                <a href="#!" class="text-gray-50 hover:text-amber-600 text-xs">
                   Login
                 </a>
               </p>
               <p class="mb-4">
-                <a href="#!" class="text-gray-50 text-xs">
+                <a href="#!" class="text-gray-50 hover:text-amber-600 text-xs">
                   My Cart
                 </a>
               </p>
               <p class="mb-4">
-                <a href="#!" class="text-gray-50 text-xs">
+                <a href="#!" class="text-gray-50 hover:text-amber-600 text-xs">
                   Wishlist
                 </a>
               </p>
               <p>
-                <a href="#!" class="text-gray-50 text-xs">
+                <a href="#!" class="text-gray-50 hover:text-amber-600 text-xs">
                   Compare
                 </a>
               </p>
             </div>
             <div class="">
-              <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+              <h6
+                class="uppercase font-semibold mb-4 flex justify-center md:justify-start  hover:text-amber-600
+                cursor-default"
+              >
                 NEWSLETTER
               </h6>
               <div>
@@ -163,7 +174,7 @@ function Footer() {
                   placeholder="Enter Your Email Here"
                 />
               </div>{" "}
-              <button className="bg-amber-600 mt-7 py-2 px-4 ml-2">
+              <button className="bg-amber-600 mt-7 py-2 px-4 ml-2 hover:bg-amber-500">
                 Subscribe
               </button>
             </div>
@@ -172,7 +183,7 @@ function Footer() {
         <div class="text-center p-5 bg-gray-900">
           <span>© 2021 Copyright: </span>
           <a
-            class="text-gray-50 font-semibold"
+            class="text-gray-50 hover:text-amber-600 font-semibold"
             href="https://tailwind-elements.com/"
           >
             made by Iman
