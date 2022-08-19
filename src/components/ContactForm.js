@@ -11,7 +11,7 @@ function ContactForm() {
         }, 400);
       }}
     >
-      <Form className="w-full flex flex-col justify-center  max-w-2xl m-auto bg-gray-100 p-11 mb-28">
+      <Form className="w-full flex flex-col justify-center  max-w-2xl m-auto bg-gray-200 p-11 mb-28">
         <h1 className="font-bold text-2xl text-gray-700 mb-10">Get In Touch</h1>
         <div className="flex  mb-6">
           <div className="w-full   mb-6 md:mb-0">
