@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 function Blogs() {
+  const blog = "/blog";
   return (
     <div className="my-28">
       {" "}
-      <h1 className="text-3xl text-center mb-16 font-bold tracking-wider">
+      <h1 className="text-2xl text-center text-gray-700 mb-16 font-bold tracking-wider">
         Latest News
       </h1>
       <div className="flex justify-evenly mx-16 ">
@@ -25,7 +26,7 @@ function Blogs() {
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-            <Link to="/blog">
+            <Link to={blog}>
               <button className="py-1 px-4 bg-gray-500 text-white my-4 hover:bg-amber-500 rounded-md">
                 Read More
               </button>
@@ -49,7 +50,7 @@ function Blogs() {
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-            <Link to="/blog">
+            <Link to={blog}>
               <button className="py-1 px-4 bg-gray-500 text-white my-4 hover:bg-amber-500 rounded-md">
                 Read More
               </button>
@@ -74,7 +75,7 @@ function Blogs() {
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-            <Link to="/blog">
+            <Link to={blog}>
               <button className="py-1 px-4 bg-gray-500 text-white my-4 hover:bg-amber-500 rounded-md">
                 Read More
               </button>

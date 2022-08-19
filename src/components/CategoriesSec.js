@@ -7,7 +7,7 @@ import chair from "../assets/office-chair.png";
 function CategoriesSec() {
   return (
     <div>
-      <div className="text-xl font-bold text-gray-700 mt-10 text-center">
+      <div className="text-2xl font-bold text-gray-700 mt-10 text-center tracking-wider">
         <h1>Our Categories</h1>
       </div>
       <div className="flex mt-10 mb-9 justify-around items-center text-center mx-52 ">
