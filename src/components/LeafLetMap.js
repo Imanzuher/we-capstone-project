@@ -2,7 +2,7 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 function LeafLetMap() {
   return (
-    <div className="h-96 w-100 container mx-auto mt-20 mb-40 ">
+    <div className="h-96 w-100 container mx-auto mt-20 mb-12  ">
       <MapContainer
         center={[36.19125374221944, 44.00914381197795]}
         zoom={10}
