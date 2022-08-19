@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Blogs() {
   return (
     <div className="my-28">
@@ -25,9 +25,11 @@ function Blogs() {
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-            <button className="py-1 px-4 bg-gray-500 text-white my-4 hover:bg-amber-500 rounded-md">
-              Read More
-            </button>
+            <Link to="/blog">
+              <button className="py-1 px-4 bg-gray-500 text-white my-4 hover:bg-amber-500 rounded-md">
+                Read More
+              </button>
+            </Link>
           </div>
         </div>
         <div class="max-w-xs rounded overflow-hidden shadow-xl bg-gray-100 cursor-pointer">
@@ -47,9 +49,11 @@ function Blogs() {
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-            <button className="py-1 px-4 bg-gray-500 text-white my-4 hover:bg-amber-500 rounded-md">
-              Read More
-            </button>
+            <Link to="/blog">
+              <button className="py-1 px-4 bg-gray-500 text-white my-4 hover:bg-amber-500 rounded-md">
+                Read More
+              </button>
+            </Link>
           </div>
         </div>
         <div class="max-w-xs rounded overflow-hidden shadow-xl bg-gray-100 cursor-pointer">
@@ -70,9 +74,11 @@ function Blogs() {
               Voluptatibus quia, nulla! Maiores et perferendis eaque,
               exercitationem praesentium nihil.
             </p>
-            <button className="py-1 px-4 bg-gray-500 text-white my-4 hover:bg-amber-500 rounded-md">
-              Read More
-            </button>
+            <Link to="/blog">
+              <button className="py-1 px-4 bg-gray-500 text-white my-4 hover:bg-amber-500 rounded-md">
+                Read More
+              </button>
+            </Link>
           </div>
         </div>
       </div>

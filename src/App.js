@@ -11,6 +11,7 @@ import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 import Register from "./pages/Register";
 import Contact from "./pages/Contact";
+import Blog from "./pages/BlogPage";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path="shoppingCart" element={<Cart />} />
         <Route path="register" element={<Register />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="blog" element={<Blog />} />
       </Routes>
     </div>
   );
