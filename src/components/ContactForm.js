@@ -48,10 +48,10 @@ function ContactForm() {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap  mb-6">
+        <div className="flex flex-wrap  mb-6 small:inline">
           <div className="w-full ">
             <label
-              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 "
               htmlFor="subject"
             >
               Subject
@@ -65,7 +65,7 @@ function ContactForm() {
             />
           </div>
         </div>
-        <div className="flex flex-wrap  mb-6">
+        <div className="flex flex-wrap  mb-6 small:inline">
           <div className="w-full ">
             <label
               className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
@@ -83,7 +83,7 @@ function ContactForm() {
           </div>
         </div>
 
-        <div class="flex flex-wrap  mb-6">
+        <div class="flex flex-wrap  mb-6 small:inline">
           <div class="md:w-1/3"></div>
           <div class="md:w-full">
             <button

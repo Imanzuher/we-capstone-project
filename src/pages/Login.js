@@ -17,8 +17,31 @@ function Login() {
     setForm((values) => ({ ...values, [name]: value }));
     console.log(form);
   }
+
   return (
-    <div className="relative flex flex-col justify-center min-h-screen overflow-hidden bg-[#faefd4]">
+    <div className=" relative flex flex-col justify-center min-h-screen overflow-hidden bg-[#faefd4]">
+      <div>
+        <button
+          onClick={() => {
+            navigate(-1);
+          }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-8 w-16 mt-3 text-gray-700"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M7 16l-4-4m0 0l4-4m-4 4h18"
+            />
+          </svg>
+        </button>
+      </div>
       <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl shadow-gray-400/40  ring-gray-100 lg:max-w-xl">
         <h1 className="text-3xl font-semibold text-center text-gray-700 underline uppercase decoration-transparent">
           Sign in
