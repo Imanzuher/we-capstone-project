@@ -13,6 +13,8 @@ module.exports = {
       margin: {
         85: "370px",
       },
+
+      important: true,
     },
   },
   plugins: [],

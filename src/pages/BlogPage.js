@@ -1,10 +1,13 @@
 import React from "react";
-import Blog from "../components/Blog";
+import Blog1 from "../components/Blog1";
+import Layout from "../Layout/MainLayout";
+import GoToTop from "../components/GoToTop";
 function BlogPage() {
   return (
-    <div>
-      <Blog />
-    </div>
+    <Layout>
+      <Blog1 />
+      <GoToTop />
+    </Layout>
   );
 }
 
