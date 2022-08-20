@@ -6,11 +6,11 @@ import lounge from "../assets/lounge.png";
 import chair from "../assets/office-chair.png";
 function CategoriesSec() {
   return (
-    <div>
+    <div className="">
       <div className="text-2xl font-bold text-gray-700 mt-10 text-center tracking-wider">
         <h1>Our Categories</h1>
       </div>
-      <div className="flex mt-10 mb-9 justify-around items-center text-center mx-52 ">
+      <div className="flex mt-10 mb-9 justify-around items-center text-center mx-52 small:grid small:grid-cols-2 small:grid-rows-3 small:gap-10">
         <div className="border py-6 px-8 border-gray-700 cursor-pointer  rounded-full transition-all hover:border-dashed hover:border-2 hover:border-amber-500 duration-500n-200  ">
           <div className="w-16 opacity-80 ">
             <img src={bedroom} alt="" />
