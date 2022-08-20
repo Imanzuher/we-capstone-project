@@ -12,9 +12,9 @@ function Blog() {
         </h3>
       </div>
       <div className="mb-44">
-        <div className="flex flex-col mt-14 mb-3 items-center">
+        <div className="flex flex-col mt-14 mb-3 small:mx-auto items-center ">
           <img
-            className="w-600 h-400"
+            className="w-600 h-400 small:w-auto  small:h-72"
             src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
             alt=""
           />
@@ -23,7 +23,7 @@ function Blog() {
           <span className="pr-6">By unknown</span>
           <span>20-aug-2022</span>
         </div>
-        <div className="  text-left mx-85">
+        <div className="  text-left mx-85  small:mx-10">
           <h1 className="font-bold text-2xl mb-6">
             Eiumod tempor incididunt labore
           </h1>
