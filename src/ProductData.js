@@ -1,10 +1,9 @@
-import blueCouch from "./assets/blue coach.png";
-import blackChair from "./assets/blackChair.png";
-import greenSofa from "./assets/greenSofa.png";
-import mirror from "./assets/mirror.png";
-import table from "./assets/table.png";
-import whiteChair from "./assets/whiteChair.png";
-import officeChair from "./assets/officeChair.png";
+import blackChair from "./assets/blackChair_.png";
+import greenSofa from "./assets/greenSofa_.png";
+import mirror from "./assets/mirror_.png";
+import table from "./assets/table_.png";
+import whiteChair from "./assets/whiteChair_.png";
+import officeChair from "./assets/officeChair_.png";
 const Data = [
   {
     id: 0,
@@ -48,13 +47,13 @@ const Data = [
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum",
     img: blackChair,
   },
-  {
+  /*{
     id: 6,
     title: "Blue Sofa ",
     price: `$200.0`,
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum",
     img: blueCouch,
-  },
+  },*/
   {
     id: 7,
     title: "Broma Bed Side Table ",
