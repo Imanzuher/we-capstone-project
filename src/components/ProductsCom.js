@@ -75,12 +75,12 @@ function ProductsCom() {
             <span class="text-2xl font-bold text-gray-900 dark:text-gray-700">
               {item.price}
             </span>
-            <a
-              href="#"
-              class="text-white bg-amber-600 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center"
+            <Link
+              to={`/products/${item.id}`}
+              class="text-white bg-amber-600 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-xs px-3 py-2.5 text-center"
             >
               Add to cart
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@ function ProductsCom() {
   };
   return (
     <div>
-      <div className="container  mx-auto p-10 grid grid-cols-4 gap-10 object-fill small:grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
+      <div className="  mx-24 p-10 grid grid-cols-4 gap-10 object-fill small:grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
         {Data.map(cardItem)}
       </div>
     </div>

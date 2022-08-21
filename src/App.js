@@ -22,7 +22,7 @@ function App() {
     if (email) {
       dispatch(login(email));
     }
-  }, []);
+  });
   return (
     <div>
       <Routes>
@@ -30,7 +30,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="categories" element={<Categories />} />
         <Route path="products" element={<Products />} />
-        <Route path="product" element={<Product />} />
+        <Route path="products/:id" element={<Product />} />
         <Route path="login" element={<Login />} />
         <Route path="shoppingCart" element={<Cart />} />
         <Route path="register" element={<Register />} />
