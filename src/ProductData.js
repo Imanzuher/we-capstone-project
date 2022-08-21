@@ -14,14 +14,14 @@ const Data = [
   },
   {
     id: 1,
-    title: "Home office comfy chair.",
+    title: "office comfy chair.",
     price: `$33.0`,
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum",
     img: officeChair,
   },
   {
     id: 2,
-    title: "Cool hipster green couch sofa",
+    title: " green couch sofa",
     price: `$450.0`,
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum",
     img: greenSofa,
@@ -35,7 +35,7 @@ const Data = [
   },
   {
     id: 4,
-    title: "Wooden Framed Hanging Mirror ",
+    title: "Wooden Framed  Mirror ",
     price: `$40.0`,
     desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum",
     img: mirror,
