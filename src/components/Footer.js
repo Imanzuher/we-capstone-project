@@ -158,7 +158,7 @@ function Footer() {
           </div>
         </div>
         <div class="py-4 px-4 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-          <span class="text-sm text-gray-300 dark:text-gray-300 sm:text-center cursor-default ">
+          <span class="text-sm ml-5 text-gray-300 dark:text-gray-300 sm:text-center cursor-default ">
             © 2022 made by <span className="hover:text-amber-500">IMAN</span>
           </span>
         </div>

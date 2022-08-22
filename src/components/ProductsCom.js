@@ -1,16 +1,14 @@
 import React from "react";
 import Data from "../ProductData";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function ProductsCom() {
-  const cardItem = (item) => {
+  const cardItem = Data.map((item) => {
     return (
       <div class=" w-full max-w-xs  bg-white rounded-lg shadow-md dark:bg-gray-100 ">
-        <div className="">
-          {" "}
+        <NavLink to={`/products/${item.id}`}>
           <img class="p-8 rounded-t-lg object-contain" src={item.img} alt="" />
-        </div>
-
+        </NavLink>
         <div class="px-5 pb-5">
           <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-gray-700">
             {item.title}
@@ -75,21 +73,23 @@ function ProductsCom() {
             <span class="text-2xl font-bold text-gray-900 dark:text-gray-700">
               {item.price}
             </span>
-            <Link
-              to={`/products/${item.id}`}
+
+            <a
+              href="anything"
               class="text-white bg-amber-600 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-xs px-3 py-2.5 text-center"
             >
+              {" "}
               Add to cart
-            </Link>
+            </a>
           </div>
         </div>
       </div>
     );
-  };
+  });
   return (
     <div>
       <div className="  mx-24 p-10 grid grid-cols-4 gap-10 object-fill small:grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
-        {Data.map(cardItem)}
+        {cardItem}
       </div>
     </div>
   );
