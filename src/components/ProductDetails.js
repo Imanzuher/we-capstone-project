@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import Data from "../ProductData";
 function ProductDetails() {
+  const [cartBttn, setCartBttn] = useState("Add to Cart");
   const { id } = useParams();
   let thisProduct = Data.find((prod) => prod.id === id);
   console.log(thisProduct.id);
+  const cartHandler = (item) => {
+    if (cartBttn === "Add to Cart") {
+      setCartBttn("Remove from Cart");
+    } else {
+      setCartBttn("Add to Cart");
+    }
+  };
   return (
     <section class="text-gray-700 body-font overflow-hidden bg-white">
       <div class="container px-5 py-24 mx-auto">
@@ -110,10 +118,16 @@ function ProductDetails() {
                 </div>
               </div>
             </div>
-            <div class="flex">
+            <div class="flex align-baseline">
               <span class="title-font font-medium text-2xl text-gray-900">
                 {thisProduct.price}
               </span>
+              <button
+                onClick={() => cartHandler(thisProduct)}
+                class="text-white bg-amber-600 hover:bg-amber-500 focus:ring-2 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-base px-9 py-1.5 text-center ml-14"
+              >
+                {cartBttn}
+              </button>
             </div>
           </div>
 

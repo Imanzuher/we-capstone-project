@@ -10,9 +10,18 @@ function Home() {
       <Carousel />
 
       <CategoriesSec />
-      <h1 className="text-2xl text-center text-gray-700 my-9 font-bold tracking-wider small:text-3xl">
-        Our Products
-      </h1>
+      <div>
+        <h1 className="text-2xl text-center text-gray-700 mb-6 mt-14 font-bold tracking-wider small:text-3xl">
+          Our Products
+        </h1>
+        <div className="mx-85">
+          <p className="mt-2 text-center ">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do
+            eiusmo tempor incididunt ut labore
+          </p>
+        </div>
+      </div>
+
       <ProductsCom />
       <Blogs />
     </Layout>
