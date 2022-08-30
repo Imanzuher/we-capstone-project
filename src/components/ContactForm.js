@@ -26,6 +26,7 @@ function ContactForm() {
               <Field
                 name="firstName"
                 type="text"
+                autocomplete="off"
                 className="appearance-none block w-full mr-0  text-gray-700 border   py-3 px-4 mb-3 leading-tight focus:outline-amber-600 focus:outline-1 focus:bg-white"
               />
             </div>
@@ -42,6 +43,7 @@ function ContactForm() {
               <Field
                 name="lastName"
                 type="text"
+                autocomplete="off"
                 className="appearance-none block w-full  text-gray-700 border border-gray-200  py-3 px-4 leading-tight focus:outline-amber-600 focus:outline-1 focus:bg-white focus:border-gray-500"
                 id="grid-last-name"
               />

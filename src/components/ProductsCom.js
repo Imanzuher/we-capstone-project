@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function ProductsCom() {
   const cardItem = Data.map((item) => {
     return (
-      <div class=" w-full max-w-xs  bg-white rounded-lg shadow-md dark:bg-gray-100 ">
+      <div class=" w-full max-w-xs  bg-white rounded-lg shadow-md dark:bg-gray-100 cursor-pointer hover:scale-110">
         <NavLink to={`/products/${item.id}`}>
           <img class="p-8 rounded-t-lg object-contain" src={item.img} alt="" />
         </NavLink>

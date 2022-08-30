@@ -11,14 +11,14 @@ function CategoriesSec() {
         <h1>Our Categories</h1>
       </div>
       <div className="flex mt-10 mb-9 justify-around items-center text-center mx-52 small:grid small:grid-cols-2 small:grid-rows-3 small:gap-10">
-        <div className="border py-6 px-8 border-gray-700 cursor-pointer  rounded-full transition-all hover:border-dashed hover:border-2 hover:border-amber-500 duration-500n-200  ">
+        <div className="border py-6 px-8 border-gray-700 cursor-pointer  rounded-full   hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105  ">
           <div className="w-16 opacity-80 ">
             <img src={bedroom} alt="" />
           </div>{" "}
           <p className="font-semibold text-sm text-gray-700 mt-2">bedroom</p>
         </div>
 
-        <div className="border py-6 px-8 border-gray-700 cursor-pointer  rounded-full transition-all hover:border-dashed hover:border-2 hover:border-amber-500  ">
+        <div className="border py-6 px-8 border-gray-700 cursor-pointer  rounded-full hover:scale-105 hover:border-dashed hover:border-2 hover:border-amber-500  ">
           {" "}
           <div className="w-16 opacity-80">
             <img src={sofa} alt="" />
@@ -26,20 +26,20 @@ function CategoriesSec() {
           <p className="font-semibold text-sm text-gray-700 mt-2">living </p>
         </div>
 
-        <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full transition-all hover:border-dashed hover:border-2 hover:border-amber-500 duration-500n-200 ">
+        <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full hover:scale-105 hover:border-dashed hover:border-2 hover:border-amber-500  ">
           <div className="w-16 opacity-80">
             <img src={table} alt="" />
           </div>
           <p className="font-semibold text-sm text-gray-700 mt-2">dining </p>
         </div>
-        <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full transition-all hover:border-dashed hover:border-2 hover:border-amber-500 duration-500n-200 ">
+        <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full hover:scale-105 hover:border-dashed hover:border-2 hover:border-amber-500  ">
           {" "}
           <div className="w-16 opacity-80">
             <img src={lounge} alt="" />
           </div>
           <p className="font-semibold text-sm text-gray-700 mt-2"> lounge</p>
         </div>
-        <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full transition-all hover:border-dashed hover:border-2 hover:border-amber-500 duration-500 ">
+        <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full hover:scale-105 hover:border-dashed hover:border-2 hover:border-amber-500 ">
           <div className="w-16 opacity-80">
             <img src={chair} alt="" />
           </div>
