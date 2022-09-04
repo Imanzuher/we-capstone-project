@@ -74,13 +74,9 @@ function ProductsCom() {
               {item.price}
             </span>
 
-            <a
-              href="anything"
-              class="text-white bg-amber-600 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-xs px-3 py-2.5 text-center"
-            >
-              {" "}
+            <button class="text-white bg-amber-600 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-xs px-3 py-2.5 text-center">
               Add to cart
-            </a>
+            </button>
           </div>
         </div>
       </div>

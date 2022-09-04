@@ -1,9 +1,10 @@
-import React from "react";
+import { React } from "react";
 import Layout from "../Layout/MainLayout";
 import Carousel from "../components/careousel";
 import CategoriesSec from "../components/CategoriesSec";
 import Blogs from "../components/Blogs";
 import ProductsCom from "../components/ProductsCom";
+import Discount from "../components/Discount";
 function Home() {
   return (
     <Layout>
@@ -23,6 +24,7 @@ function Home() {
       </div>
 
       <ProductsCom />
+      <Discount />
       <Blogs />
     </Layout>
   );

@@ -1,16 +1,16 @@
-import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import Data from "../ProductData";
+import { useState } from "react";
 function ProductDetails() {
-  const [cartBttn, setCartBttn] = useState("Add to Cart");
   const { id } = useParams();
   let thisProduct = Data.find((prod) => prod.id === id);
   console.log(thisProduct.id);
-  const cartHandler = (item) => {
-    if (cartBttn === "Add to Cart") {
-      setCartBttn("Remove from Cart");
+  const [cartBtn, setCartBtn] = useState("Add to Cart");
+  const handleCart = (thisProduct) => {
+    if (cartBtn === "Add to Cart") {
+      setCartBtn("Remove from Cart");
     } else {
-      setCartBttn("Add to Cart");
+      setCartBtn("Add to Cart");
     }
   };
   return (
@@ -123,10 +123,10 @@ function ProductDetails() {
                 {thisProduct.price}
               </span>
               <button
-                onClick={() => cartHandler(thisProduct)}
-                class="text-white bg-amber-600 hover:bg-amber-500 focus:ring-2 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-base px-9 py-1.5 text-center ml-14"
+                onClick={() => handleCart(thisProduct)}
+                class="text-white bg-amber-600 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-base px-9 py-1.5 text-center ml-14"
               >
-                {cartBttn}
+                {cartBtn}
               </button>
             </div>
           </div>
