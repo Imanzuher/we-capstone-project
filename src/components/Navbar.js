@@ -8,7 +8,7 @@ import { logout } from "../app/slices/authSlice";
 export default function Navbar() {
   const auth = useSelector((state) => state.auth);
   const dispatch = useDispatch();
-  const [navigation, setNavigation] = useState([
+  const [navigation] = useState([
     { name: "Home", href: "/", current: true },
     { name: "About", href: "/about", current: false },
     { name: "Categories", href: "/categories", current: false },
@@ -17,7 +17,7 @@ export default function Navbar() {
   ]);
   useEffect(() => {
     console.log("the state of auth is ", auth);
-  }, []);
+  });
   return (
     <Disclosure as="nav" className="bg-gray-50 ">
       {({ open }) => (
