@@ -160,7 +160,7 @@ const Data = [
     title: "Chair",
     price: `$30.0`,
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
-    img: blackChair,
+    img: chairblack,
     available: 12,
     color: {
       b: "blue",
@@ -173,7 +173,7 @@ const Data = [
   },
   {
     id: "11",
-    title: "Sofa",
+    title: " Pink Sofa",
     price: `$70.0`,
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: pinksofa,
@@ -189,7 +189,7 @@ const Data = [
   },
   {
     id: "12",
-    title: "Sofa",
+    title: "Yellow Sofa",
     price: `$75.0`,
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: yellowsofa,
