@@ -16,6 +16,7 @@ const Data = [
     price: `$45.0`,
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: whiteChair,
+    category: "living",
     available: 9,
     color: {
       b: "blue",
@@ -33,6 +34,7 @@ const Data = [
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: officeChair,
     available: 11,
+    category: "office",
     color: {
       b: "blue",
       g: "green",
@@ -49,6 +51,7 @@ const Data = [
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: greenSofa,
     available: 4,
+    category: "living",
     color: {
       b: "blue",
       g: "green",
@@ -64,6 +67,7 @@ const Data = [
     price: `$100.0`,
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: table,
+    category: "dining",
     available: 13,
     color: {
       b: "blue",
@@ -81,6 +85,7 @@ const Data = [
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: mirror,
     available: 10,
+    category: "bedroom",
     color: {
       b: "blue",
       g: "green",
@@ -96,6 +101,7 @@ const Data = [
     price: `$50.0`,
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: blackChair,
+    category: "office",
     available: 8,
     color: {
       b: "blue",
@@ -114,6 +120,7 @@ const Data = [
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F5_c8625a3e-4a89-478d-8f51-b5b5d6b1057a.jpg%3Fv%3D1632549533&w=1920&q=75",
     available: 5,
+    category: "lounge",
     color: {
       b: "blue",
       g: "green",
@@ -130,6 +137,7 @@ const Data = [
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0597%2F8970%2F5392%2Fproducts%2F1_d9913561-510c-4d82-8185-4e4fd3828742.jpg%3Fv%3D1632545251&w=1920&q=75",
     available: 14,
+    category: "dining",
     color: {
       b: "blue",
       g: "green",
@@ -145,6 +153,7 @@ const Data = [
     price: `$25.0`,
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: brownTable,
+    category: "lounge",
     available: 10,
     color: {
       b: "blue",
@@ -161,6 +170,7 @@ const Data = [
     price: `$30.0`,
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: chairblack,
+    category: "office",
     available: 12,
     color: {
       b: "blue",
@@ -177,6 +187,7 @@ const Data = [
     price: `$70.0`,
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: pinksofa,
+    category: "living",
     available: 8,
     color: {
       b: "blue",
@@ -193,6 +204,7 @@ const Data = [
     price: `$75.0`,
     desc: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of",
     img: yellowsofa,
+    category: "living",
     available: 10,
     color: {
       b: "blue",
