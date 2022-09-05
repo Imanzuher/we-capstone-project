@@ -14,37 +14,37 @@ function CategoriesPage() {
     <div>
       <div className="flex justify-around py-10">
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-700 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105 "
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105 "
           onClick={() => setItems(Data)}
         >
           All
         </button>
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-700 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
           onClick={() => filterItem("living")}
         >
           living
         </button>
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-700 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
           onClick={() => filterItem("dining")}
         >
           dining
         </button>
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-700 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
           onClick={() => filterItem("office")}
         >
           office
         </button>
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-700 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
           onClick={() => filterItem("bedroom")}
         >
           bedroom
         </button>
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-700 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
           onClick={() => filterItem("lounge")}
         >
           lounge
