@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 
 function Discount() {
   return (
-    <div className="flex justify-around mx-24 mt-20">
+    <div className="flex justify-around mx-24 mt-20 small:flex-col  small:items-center">
       <NavLink to={"/products"}>
-        <div className="w-500 relative text-center hover:shadow-lg cursor-pointer">
+        <div className="w-500 relative text-center hover:shadow-lg cursor-pointer small:mb-12">
           <img src={discount1} alt="" />
           <p className="absolute top-24 left-72 font-bold text-2xl text-gray-700">
             Sale Furniture For Summer

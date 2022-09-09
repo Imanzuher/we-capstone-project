@@ -19,7 +19,7 @@ function Login() {
   }
 
   return (
-    <div className=" relative flex flex-col justify-center min-h-screen overflow-hidden bg-[#faefd4]">
+    <div className=" relative flex flex-col justify-center min-h-screen overflow-hidden bg-[#e9e9e9]">
       <div>
         <button
           onClick={() => {

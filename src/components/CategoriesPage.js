@@ -12,7 +12,7 @@ function CategoriesPage() {
   };
   return (
     <div>
-      <div className="flex justify-around py-10">
+      <div className="flex justify-around py-10 flex-wrap small:h-72 small:content-between">
         <button
           className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105 "
           onClick={() => setItems(Data)}

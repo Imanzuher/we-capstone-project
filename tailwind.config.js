@@ -18,6 +18,7 @@ module.exports = {
       important: true,
       screens: {
         small: { max: "639px" },
+        mobile: { max: "400px" },
       },
     },
   },
