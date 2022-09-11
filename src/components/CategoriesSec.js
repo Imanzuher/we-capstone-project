@@ -12,9 +12,9 @@ function CategoriesSec() {
       <div className="text-2xl font-bold text-gray-700 mt-10 text-center tracking-wider">
         <h1>Our Categories</h1>
       </div>
-      <div className="flex mt-10 mb-9 justify-around items-center text-center mx-52 small:mx-16 small:grid small:grid-cols-2 small:grid-rows-3 small:gap-16">
+      <div className="flex mt-10 mb-9 justify-around items-center text-center mx-52 small:mx-16 small:grid small:grid-cols-2 small:grid-rows-3 small:gap-16 mobile:gap-12 mobile:mx-9">
         <NavLink to={"/categories"}>
-          <div className="border py-6 px-8 border-gray-700 cursor-pointer  rounded-full small:px-16  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105  ">
+          <div className="border py-6 px-8 border-gray-700 cursor-pointer  rounded-full small:px-16 mobile:px-8  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105  ">
             <div className="w-16 opacity-80 ">
               <img src={bedroom} alt="" />
             </div>{" "}
@@ -22,7 +22,7 @@ function CategoriesSec() {
           </div>
         </NavLink>
         <NavLink to={"/categories"}>
-          <div className="border py-6 px-8 border-gray-700 cursor-pointer  rounded-full small:px-16 hover:scale-105 hover:border-dashed hover:border-2 hover:border-amber-500  ">
+          <div className="border py-6 px-8 border-gray-700 cursor-pointer  rounded-full small:px-16 hover:scale-105 mobile:px-8 hover:border-dashed hover:border-2 hover:border-amber-500  ">
             {" "}
             <div className="w-16 opacity-80">
               <img src={sofa} alt="" />
@@ -31,7 +31,7 @@ function CategoriesSec() {
           </div>
         </NavLink>
         <NavLink to={"/categories"}>
-          <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full small:px-16 hover:scale-105 hover:border-dashed hover:border-2 hover:border-amber-500  ">
+          <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full small:px-16 hover:scale-105 mobile:px-8 hover:border-dashed hover:border-2 hover:border-amber-500  ">
             <div className="w-16 opacity-80">
               <img src={table} alt="" />
             </div>
@@ -39,7 +39,7 @@ function CategoriesSec() {
           </div>
         </NavLink>
         <NavLink to={"/categories"}>
-          <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full small:px-16 hover:scale-105 hover:border-dashed hover:border-2 hover:border-amber-500  ">
+          <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full small:px-16 hover:scale-105 mobile:px-8 hover:border-dashed hover:border-2 hover:border-amber-500  ">
             {" "}
             <div className="w-16 opacity-80">
               <img src={lounge} alt="" />
@@ -48,7 +48,7 @@ function CategoriesSec() {
           </div>
         </NavLink>
         <NavLink to={"/categories"}>
-          <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full small:px-16 hover:scale-105 hover:border-dashed hover:border-2 hover:border-amber-500 ">
+          <div className="border py-6 px-8 border-gray-700 cursor-pointer rounded-full small:px-16 hover:scale-105 mobile:px-8 hover:border-dashed hover:border-2 hover:border-amber-500 ">
             <div className="w-16 opacity-80">
               <img src={chair} alt="" />
             </div>

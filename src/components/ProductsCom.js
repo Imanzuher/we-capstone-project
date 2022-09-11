@@ -14,10 +14,10 @@ function ProductsCom() {
           return post;
         }
       }).map((item) => (
-        <div class=" w-full max-w-xs  bg-white rounded-lg shadow-md dark:bg-gray-100 cursor-pointer hover:scale-110">
+        <div class=" w-full max-w-xs   bg-white rounded-lg shadow-md dark:bg-gray-100 cursor-pointer hover:scale-110">
           <NavLink to={`/products/${item.id}`}>
             <img
-              class="p-8 rounded-t-lg object-contain"
+              class="p-8 rounded-t-lg object-contain "
               src={item.img}
               alt=""
             />
@@ -102,7 +102,7 @@ function ProductsCom() {
       <div className="flex mx-auto justify-center items-center ">
         {" "}
         <input
-          className="bg-gray-200 w-96 rounded-md px-6 py-3 mt-5 focus:outline-amber-500 mr-3"
+          className="bg-gray-200 w-96 rounded-md mobile:w-72 px-6 py-3 mt-5 focus:outline-amber-500 mr-3"
           placeholder="Enter Product Title"
           onChange={(event) => setQuery(event.target.value)}
         />
@@ -124,7 +124,7 @@ function ProductsCom() {
         </div>
       </div>
 
-      <div className="  mx-24 p-10 grid grid-cols-4 gap-10 object-fill small:grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
+      <div className=" mobile:p-0 mobile:mx-16 mobile:mt-10  mx-24 p-10 grid grid-cols-4 gap-10 object-fill small:grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
         {cardItem}
       </div>
     </div>

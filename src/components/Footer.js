@@ -147,7 +147,7 @@ function Footer() {
             </h6>
             <div>
               <input
-                className="px-6 py-2 rounded-lg bg-slate-800 border border-gray-500"
+                className="px-6 py-2 rounded-lg bg-slate-800 border border-gray-500 mobile:px-4 mobile:w-32"
                 type="text"
                 placeholder="Enter Your Email Here"
               />

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function LimitedProduct() {
   const [items] = useState(Data);
   return (
-    <div className=" mx-24 p-10 grid grid-cols-4 gap-10 object-fill small:grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
+    <div className=" mobile:p-0 mobile:mx-16 mobile:mt-10 mx-24 p-10 grid grid-cols-4 gap-10 object-fill small:grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
       {items.slice(0, 4).map((elem) => {
         return (
           <div class=" w-full max-w-xs  bg-white rounded-lg shadow-md dark:bg-gray-100 cursor-pointer hover:scale-110">

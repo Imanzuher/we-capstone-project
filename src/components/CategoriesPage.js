@@ -12,46 +12,46 @@ function CategoriesPage() {
   };
   return (
     <div>
-      <div className="flex justify-around py-10 flex-wrap small:h-72 small:content-between">
+      <div className="flex justify-around py-10 flex-wrap small:h-72 small:content-between mobile:grid mobile:grid-cols-3 mobile:gap-4 mobile:mx-5 mobile:px-0">
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105 "
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8 mobile:px-4  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105 "
           onClick={() => setItems(Data)}
         >
           All
         </button>
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8 mobile:px-4  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
           onClick={() => filterItem("living")}
         >
           living
         </button>
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8 mobile:px-4  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
           onClick={() => filterItem("dining")}
         >
           dining
         </button>
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8 mobile:px-4  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
           onClick={() => filterItem("office")}
         >
           office
         </button>
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8 mobile:px-4  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
           onClick={() => filterItem("bedroom")}
         >
           bedroom
         </button>
         <button
-          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
+          className="font-semibold text-lg uppercase font-mono text-gray-500 border py-6 px-8 mobile:px-4  cursor-pointer  shadow-md  hover:border-dashed hover:border-2 hover:border-amber-500 hover:scale-105"
           onClick={() => filterItem("lounge")}
         >
           lounge
         </button>
       </div>
 
-      <div className=" mx-24 p-10 grid grid-cols-4 gap-10 object-fill small:grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
+      <div className=" mobile:p-0 mobile:mx-16 mx-24 p-10 grid grid-cols-4 gap-10 object-fill small:grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4">
         {items.map((elem) => {
           return (
             <div class=" w-full max-w-xs  bg-white rounded-lg shadow-md dark:bg-gray-100 cursor-pointer hover:scale-110">

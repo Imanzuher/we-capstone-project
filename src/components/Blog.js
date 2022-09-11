@@ -12,9 +12,9 @@ function Blog() {
         </h3>
       </div>
       <div className="mb-44">
-        <div className="flex flex-col mt-14 mb-3 small:mx-auto items-center ">
+        <div className="flex flex-col mt-14 mb-3 small:mx-auto items-center mobile:mx-5 ">
           <img
-            className="w-600 h-400 small:w-auto  small:h-72"
+            className="w-600 h-400 small:w-auto  small:h-72 mobile:h-60 "
             src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
             alt=""
           />
@@ -24,7 +24,7 @@ function Blog() {
           <span>20-aug-2022</span>
         </div>
         <div className="  text-left mx-85  small:mx-10">
-          <h1 className="font-bold text-2xl mb-6">
+          <h1 className="font-bold text-2xl mb-6 mobile:text-xl">
             Eiumod tempor incididunt labore
           </h1>
           <p>
@@ -40,8 +40,8 @@ function Blog() {
             labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquip commodo consequat.
           </p>
-          <p className="flex ml-32 my-10">
-            <div class=" left-1/2 mr-5 w-2 h-24 bg-amber-500"></div>
+          <p className="flex ml-32 my-10 mobile:ml-12 small:ml-14">
+            <div class=" left-1/2 mr-5 w-2 h-24 bg-amber-500 mobile:h-52 small:h-36"></div>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Duis aute irure
             dolor in rep rehenderit. Lorem ipsum dolor sit amet, consectetur
